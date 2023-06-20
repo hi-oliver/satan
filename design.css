@@ -1,0 +1,208 @@
+BODY {
+  background-color: #000;
+  background-image: url(/pictures/pentagram.jpg);
+}
+@font-face {
+	font-family: 'Better VCR';
+	src: url(/fonts/2.ttf);
+}
+@font-face {
+	font-family: 'Base02Cyrillic2';
+	src: url(/fonts/18969.ttf);
+}
+.naming{
+  font-family: 'Base02Cyrillic2';
+  font-size: 60px;
+  color: #fff;
+  animation: img-light 10s infinite linear;
+}
+.first-point {
+  font-family: 'Base02Cyrillic2';
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.first-button {
+  font-family: 'Base02Cyrillic2';
+  font-size: 15px;
+  color: #ff0000;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.first-button:hover{
+  text-decoration: line-through;
+}
+.menu-point {
+  font-family: 'Base02Cyrillic2';
+  font-size: 18px;
+  color: #fff;
+  text-align: right;
+  text-decoration: none;
+}
+.hovertext {
+  text-decoration: none;
+  color: #fff;
+}
+.Select-Part {
+  font-family: 'Base02Cyrillic2';
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.SelectOne-Keeper {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+#Menu1Select {
+  font-family: 'Base02Cyrillic2';
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+}
+#Menu1Select:hover{
+  text-decoration: line-through;
+  color: #ff0000;
+}
+.asylum{
+  font-family: 'Base02Cyrillic2';
+  font-size: 10px;
+  color: #FF0000;
+}
+.message {
+  font-family: 'Better VCR';
+  font-size: 12px;
+  color: #ffffff;
+}
+.missedcall {
+  font-family: 'Better VCR';
+  font-size: 12px;
+  color: #999999;
+}
+.mymessage {
+  font-family: 'Better VCR';
+  font-size: 12px;
+  color: #00FF08;
+}
+.disconnect-message {
+  font-family: 'Better VCR';
+  font-size: 12px;
+  color: #ff0000;
+}
+.message1 {
+  animation: msg1 25s steps(1, end);
+}
+.message2 {
+  animation: msg2 25s steps(1, end);
+}
+.message3 {
+  animation: msg3 25s steps(1, end);
+}
+.message4 {
+  animation: msg4 25s steps(1, end);
+}
+.mcall {
+  animation: mcll4 25s steps(1, end);
+}
+.message5 {
+  animation: msg5 25s steps(1, end);
+}
+.message6 {
+  animation: msg6 25s steps(1, end);
+}
+.message7 {
+  animation: msg7 25s steps(1, end);
+}
+@keyframes img-light {
+  0% {
+    opacity: 1
+  }
+  20% {
+    opacity: 1
+  }
+  40% {
+    opacity: 0.7
+  }
+  60% {
+    opacity: 1
+  }
+  80% {
+    opacity: 0.7
+  }
+  100% {
+    opacity: 1
+  }
+}
+.hovertext:hover {
+  text-decoration: line-through;
+  color: red;
+}
+
+@keyframes msg1 {
+  0% {
+    opacity: 0
+  }
+  5% {
+    opacity: 1
+  }
+}
+@keyframes msg2 {
+  0% {
+    opacity: 0
+  }
+  15% {
+    opacity: 1
+  }
+}
+@keyframes msg3 {
+  0% {
+    opacity: 0
+  }
+  20% {
+    opacity: 1
+  }
+}
+@keyframes msg4 {
+  0% {
+    opacity: 0
+  }
+  45% {
+    opacity: 1
+  }
+}
+@keyframes mcll4 {
+  0% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+@keyframes msg5 {
+  0% {
+    opacity: 0
+  }
+  65% {
+    opacity: 1
+  }
+}
+@keyframes msg6 {
+  0% {
+    opacity: 0
+  }
+  97% {
+    opacity: 1
+  }
+}
+@keyframes msg7 {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
